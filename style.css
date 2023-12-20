@@ -4,7 +4,12 @@
 }
 body{
     background-color: #F6F0DF;
-    font-family: 'M PLUS Code Latin';
+}
+
+#logo{
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
 }
 header{
     background-color: #c4c5e6;
@@ -21,6 +26,7 @@ nav{
 }
 .heading-text{
     font-size: 40px;
+    ;
 }
 .heading-text>h4{
     padding-top: 50px;
@@ -31,7 +37,7 @@ nav{
 .heading{
     padding: 80px 80px 0px 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .Random-Meal>h4,.Search-results>h4{
     margin-left: 80px;
@@ -80,6 +86,43 @@ ul{
     line-height: 40px;
     color: #5E5959;
 }
+.rando {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .random-food {
+    margin-top: 40px;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+  }
+.modal {
+    
+    margin-left: 40px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.modal-content {
+    padding: 20px;
+    font-size: 14px;
+}
+.modal-title {
+    text-align: center;
+}
+.modal-ingredients {
+  font-size: 20px;
+}
+.close {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
 .modal{
     font-size: 30px;
     height: 400px;
@@ -125,7 +168,8 @@ ul{
 
   .search-bar {
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 450px;
   }
   
   .search-input {
@@ -160,34 +204,7 @@ ul{
   .search-btn:hover {
     background-color: #e5c178;
   }
-  
-code {
-    background-color: rgb(246, 244, 244);
-    padding: 3px 5px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-}
 
-.event-listner {
-    border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
-    padding: 10px 20px;
-    background-color: white;
-    max-width: fit-content;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.event-listner p {
-    margin: 0;
-}
-
-.event-listner:hover {
-    background-color: #f0f0f0; 
-    cursor: pointer;
-}
 .error{
     padding: 100px ;
 }
